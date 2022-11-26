@@ -1,0 +1,79 @@
+QCheckBox {height: 32px;}
+QCheckBox::indicator {height: 24px;}
+QLineEdit{padding: 3px 2px;}
+QPushButton {padding: 4px 11px;}
+QPlainTextEdit{padding: 8px 8px;}
+QLabel {font-size:15px;}
+
+QPushButton#closePushButton,
+QPushButton#maxPushButton,
+QPushButton#minPushButton,
+QPushButton#setPushButton,
+QPushButton#helpPushButton {
+    border-radius: 0px;
+    border: none;
+}
+
+QPushButton#setPushButton {
+    width:10px;
+}
+
+QPushButton#helpPushButton {
+    font-size:13px;
+    color:white;
+    padding: 3px 8px;
+}
+
+QPushButton#maxPushButton:hover,
+QPushButton#minPushButton:hover,
+QPushButton#setPushButton:hover,
+QPushButton#helpPushButton:hover {
+	background-color: rgb(79, 82, 84);
+ }
+
+QPushButton#closePushButton:hover {
+	background-color: rgb(232, 17, 35);
+ }
+
+QLineEdit#fileLineEdit,
+QLineEdit#bgLineEdit,
+QLineEdit#fontLineEdit,
+QPushButton {
+    height:15px;
+}
+
+QPushButton#previewPushButton,
+QPushButton#outputPushButton {
+    height:20px;
+    font-size:20px;
+}
+
+QSpinBox, QDoubleSpinBox {
+    height:20px;
+}
+
+QLabel#label,
+QLabel#label_2 {
+    font-size:25px;
+}
+
+QLabel#label_11 {
+    font-size:20px;
+}
+
+QPushButton#colorPushButton{
+    height:14px;
+}
+
+QWidget#widget {
+    border-radius:2px;
+}
+
+QWidget#configWidget {
+    border: 2px solid #4f5b62;
+    border-radius: 4px;
+}
+
+QLabel#label_4 {
+    font-size:13px;
+}

@@ -1,0 +1,32 @@
+QLineEdit{height:18px;}
+QLineEdit{padding: 3px 2px;}
+QPushButton#chooseFileButton,
+QPushButton#chooseDirButton {
+    padding: 1px 1px;
+    height:20px;
+    width:75px;
+}
+
+QComboBox,
+QFontComboBox {
+    height:23px;
+}
+
+QComboBox, QFontComboBox {
+    font-size:16px;
+}
+
+QPushButton#closeButton {
+    height:23px;
+    width:10px;
+    border-radius: 0px;
+    border: none;
+}
+
+QPushButton#closeButton:hover {
+    background-color: rgb(232, 17, 35);
+}
+
+QLabel, QRadioButton {
+    font-size:14px;
+}
