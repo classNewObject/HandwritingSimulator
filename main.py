@@ -852,10 +852,11 @@ class MainWindow(QMainWindow):
 
         # 打开本地视屏文件
         try:
-            threading.Thread(target=lambda: os.startfile(HELP_PATH + "图片更真实.mp4")).start()
+            assert os.path.exists((video := HELP_PATH + "图片更真实.mp4"))
+            threading.Thread(target=lambda: os.startfile(video)).start()
             sleep(0.6)
             QMessageBox.information(self, "提示", "启动成功！")
-        except FileNotFoundError:
+        except AssertionError:
             QMessageBox.critical(self, "错误", "启动失败，文件不存在！")
 
     @Slot()
